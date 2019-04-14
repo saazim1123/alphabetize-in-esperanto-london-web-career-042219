@@ -5,7 +5,7 @@ def alphabetize(arr)
   arr.sort_by do |alphabet|
     new = []
     alphabet.each_char do |character| 
-      new << ALPHABET
+      new << ALPHABET.index(character)
     end
   end
 end
