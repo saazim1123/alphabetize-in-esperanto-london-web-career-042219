@@ -7,5 +7,6 @@ def alphabetize(arr)
     alphabet.each_char do |character| 
       new << ALPHABET.index(character)
     end
+    new
   end
 end
